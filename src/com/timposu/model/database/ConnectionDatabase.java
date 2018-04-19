@@ -29,7 +29,7 @@ public class ConnectionDatabase {
             try {
                 Class.forName("com.mysql.jdbc.Driver");
                
-                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/latihan","ucup","xxxxxx");
+                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mahasiswa","root","root");
                 
             } catch (ClassNotFoundException | SQLException ex) {
                 Logger.getLogger(ConnectionDatabase.class.getName()).log(Level.SEVERE, null, ex);
